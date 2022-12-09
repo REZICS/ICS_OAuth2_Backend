@@ -8,15 +8,15 @@
   },
   "test": {
     "username": "postgres",
-    "password": "",
-    "database": "express_oauth2",
+    "password": "dj@mw@r3",
+    "database": "express-oauth2",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "",
-    "database": "express_oauth2",
+    "username": "root",
+    "password": "dj@mw@r3",
+    "database": "express-oauth2",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
