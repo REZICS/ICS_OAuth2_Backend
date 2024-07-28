@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./src/bin/ICS_Oauth2.js",
+    "dev": "nodemon ./src/bin/ICS_Oauth2.j",
     "stress": "artillery quick --count 5000 -n 100 http://localhost:3000/"
   },
   "dependencies": {
@@ -16,9 +17,14 @@
     "express-oauth-server": "^2.0.0",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
     "pg": "^8.8.0",
     "pg-hstore": "^2.3.4",
     "pg-promise": "^10.15.0",
     "sequelize": "^6.25.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
